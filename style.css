@@ -1,42 +1,100 @@
-* {
-	color: #000;
-	font-family: arial, sans-serif;
+body {
+	background: #fff;
+	font-family: arial, helvetica, clean, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 15px 15px 0;
+}
+
+fieldset {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 30px 15px;
+    padding: 15px 0;
+	width: 498px;
+}
+
+form {
+	margin: 0;
+}
+
+dt, dd, p {
+	margin: 0;
+	padding: 5px 15px;
 }
 
 ul {
-	list-style-type: none;
+	margin: 0;
 	padding: 0;
 }
 
-#form {
-	position: absolute;
-	top: 0;
-	left: 900px;
-	padding: 0 15px;
-	border: 1px solid grey;
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 5px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+tr, th, td {
+	font-weight: normal;
+	vertical-align: top;
+}
+
+#document table th, #document table td {
+    padding: 5px 15px 5px 0;
+}
+
+th {
+	text-align: left;
+}
+
+input, textarea {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 2px 6px;
+}
+
+input {
+	width: 192px;
+}
+
+input.button {
+	width: auto !important;
+}
+
+input.button {
+	background-color: #ccc;
+	border: 1px solid #666;
+	clear: both;
+}
+
+textarea {
+	height: 100px;
+	width: 413px;
 }
 
 #result {
-	background: #fcc;
-	padding: 15px;
-	border: 1px solid grey;
-	width: 770px;
+	background-color: #fcc;
+	border: 1px solid #ccc;
+    margin: 15px;
+	padding: 15px 0;
+	width: 498px;
 }
 
 #result.result1 {
-	background: #cfc;
+	background-color: #cfc;
 }
 
-#condition {
-	width: 300px;
-	height: 100px;
-}
-
-#code {
-	position: absolute;
-	bottom: 0;
-	width: 800px;
-	height: 600px;
-	overflow: scroll;
-	border: 1px solid grey;
+.separate {
+	border-top: 1px dashed #ccc;
+	margin-top: 15px;
+	padding-top: 15px;
 }
