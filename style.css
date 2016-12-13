@@ -1,0 +1,42 @@
+* {
+	color: #000;
+	font-family: arial, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#form {
+	position: absolute;
+	top: 0;
+	left: 900px;
+	padding: 0 15px;
+	border: 1px solid grey;
+}
+
+#result {
+	background: #fcc;
+	padding: 15px;
+	border: 1px solid grey;
+	width: 770px;
+}
+
+#result.result1 {
+	background: #cfc;
+}
+
+#condition {
+	width: 300px;
+	height: 100px;
+}
+
+#code {
+	position: absolute;
+	bottom: 0;
+	width: 800px;
+	height: 600px;
+	overflow: scroll;
+	border: 1px solid grey;
+}
